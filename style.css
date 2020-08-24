@@ -65,6 +65,7 @@ html body{
   text-align: center;
   position: relative;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .category{
@@ -215,6 +216,7 @@ h4 {
   }
   .container {
     position: relative;
+    margin-top: 30px;
   }
   
 .child {

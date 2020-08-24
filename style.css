@@ -63,11 +63,14 @@ html body{
 .container{
   border: 1px solid #23415c;
   text-align: center;
+  position: relative;
+  width: 100%;
 }
 
 .category{
   display: inline-block;
-  margin: 5px;
+  margin: 10px;
+  padding: 20px;
 }
 
 .middle-container{ 
@@ -210,28 +213,20 @@ h4 {
       width: 100%;
     }
   }
+  .container {
+    position: relative;
+  }
+  
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+  }
 
-.con {
-    width:1024px;
-    height:670px;
-    background-color: #161717;
-    }
-    
-.box1 {
-    float:left;
-    font-size:25px;
-    width:388px;
-    height:477px;
-    background-image: url(media/trying1.png);
-    background: #ccc; /*for example*/
-    margin-left: 120px;
-    margin-top: 90px;
-    }
-    
-.text1{
-        opacity: 0;
-        transition: all 0.5s;
-    }
-.box1:hover #text1{
-        opacity: 1;
-    }
+
+
